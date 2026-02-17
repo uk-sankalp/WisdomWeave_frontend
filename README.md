@@ -1,39 +1,129 @@
-# Blog Frontend
+# WisdomWeave – Blog Frontend
 
-React + TypeScript frontend for the Blog backend. Monochromatic (dark) UI.
+Modern React + TypeScript frontend for a personal blogging platform.  
+Designed with a clean monochromatic dark UI and optimized for performance.
+
+**Owner:** Sankalp
+
+---
+
+## Overview
+
+This project is a production-style frontend for a blog application. It focuses purely on UI/UX, authentication flow handling, API communication, and state-driven rendering.
+
+It connects to a REST backend but is structured to be reusable with any compatible API.
+
+This repo contains **frontend only**.
+
+---
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- REST API integration
+- JWT auth handling
+- Monochrome dark UI theme
+
+---
+
+## Features
+
+### Authentication
+- Register & login UI
+- JWT token handling
+- Secure logout flow
+- Protected routes
+
+### Posts
+- Paginated post listing
+- Search posts
+- View individual post
+- Admin post creation UI
+
+### Comments
+- View comments per post
+- Add comments (authenticated users)
+
+### Likes
+- Like / unlike interaction
+- Live like count updates
+
+### Profile
+- View user profile
+- Edit username and bio
+- Upload avatar
+- Remove avatar
+
+### Admin Dashboard
+- Platform metrics view
+- Users / posts / likes summary
+
+### Media Support
+- Avatar image upload preview
+- Backend image rendering integration
+
+---
 
 ## Setup
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-## Run (development)
+---
 
-1. Start the backend on port 8080 (e.g. `mvn spring-boot:run` from the project root).
-2. From `blog-frontend` run:
+## Development Run
 
 ```bash
 npm run dev
 ```
 
-The app will be at http://localhost:5173. API requests are proxied to `http://localhost:8080`.
+App runs at:
 
-## Build
+```
+http://localhost:5173
+```
+
+Make sure your backend API is running and configured in `vite.config.ts` proxy.
+
+---
+
+## Production Build
 
 ```bash
 npm run build
 ```
 
-Output is in `dist/`. Serve it with any static host or from the same origin as the backend.
+Build output:
 
-## Features
+```
+dist/
+```
 
-- **Auth**: Register, login, logout (JWT).
-- **Posts**: List (paginated), search, view single post. Admins can create posts.
-- **Comments**: List and add comments on a post (authenticated).
-- **Likes**: View count and like/unlike (authenticated).
-- **Profile**: View and edit username/bio; upload/remove avatar.
-- **Admin**: Dashboard with posts, users, and likes counts.
+Deploy this folder on any static hosting platform (Vercel, Netlify, Render, etc.).
 
-All controller endpoints from the backend are used: auth, users (me, profile, avatar), posts (list, search, get by id, create), comments, likes, admin dashboard, and file serving for avatars.
+---
+
+## Project Purpose
+
+This frontend demonstrates:
+
+- Real-world React architecture
+- API-driven UI
+- Auth flow integration
+- Protected routes
+- Role-based rendering
+- Production-ready build pipeline
+
+Suitable for portfolio and internship-level showcase.
+
+---
+
+## Author
+
+**Sankalp**  
+Unemployed Dev.
