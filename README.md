@@ -122,6 +122,38 @@ This frontend demonstrates:
 Suitable for portfolio and internship-level showcase.
 
 ---
+##  Project Screenshots
+
+###  Login Page
+<p align="center">
+  <img src="screenshots/login_page.png" width="800"/>
+</p>
+
+###  Sign Up Page
+<p align="center">
+  <img src="screenshots/signup_page.png" width="800"/>
+</p>
+
+###  All Posts Feed
+<p align="center">
+  <img src="screenshots/all_posts.png" width="800"/>
+</p>
+
+###  Single Post View
+<p align="center">
+  <img src="screenshots/post.png" width="800"/>
+</p>
+
+###  User Profile
+<p align="center">
+  <img src="screenshots/user_profile.png" width="800"/>
+</p>
+
+###  Database View
+<p align="center">
+  <img src="screenshots/db_data.png" width="800"/>
+</p>
+
 
 ## Author
 
