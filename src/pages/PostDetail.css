@@ -1,0 +1,94 @@
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.back-link:hover {
+  color: var(--text);
+}
+
+.post-detail {
+  margin-bottom: 2rem;
+}
+
+.post-detail-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+}
+
+.post-detail-meta {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0 0 1.25rem;
+}
+
+.post-detail-content {
+  white-space: pre-wrap;
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+
+.post-actions {
+  padding-top: 1rem;
+  border-top: 2px solid var(--border);
+}
+
+.like-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 0.35rem 0;
+}
+
+.like-btn:hover {
+  color: var(--text);
+}
+
+.like-count {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.comments-section {
+  margin-top: 2rem;
+}
+
+.comments-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.comment-form {
+  margin-bottom: 1.5rem;
+}
+
+.comment-form textarea {
+  margin-bottom: 0.75rem;
+  resize: vertical;
+  min-height: 60px;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-item {
+  margin-bottom: 0.75rem;
+  padding: 1rem;
+}
+
+.comment-text {
+  margin: 0 0 0.35rem;
+}
+
+.comment-meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 0;
+}

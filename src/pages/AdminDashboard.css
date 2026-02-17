@@ -1,0 +1,23 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.dashboard-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+
+.dashboard-value {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.35rem;
+}
+
+.dashboard-label {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}

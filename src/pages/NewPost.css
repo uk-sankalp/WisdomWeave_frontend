@@ -1,0 +1,19 @@
+.new-post-form textarea {
+  resize: vertical;
+  min-height: 200px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: auto;
+}
+
+.new-post-form button[type="submit"] {
+  margin-top: 0.5rem;
+}
